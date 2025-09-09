@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+            integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <link rel="stylesheet" href="style.css" />
+        <title>Weather App</title>
+    </head>
+    <body>
+        <div class="wrapper">
+            <main>
+                <div id="input-container">
+                    <input
+                        id="search-input"
+                        type="text"
+                        placeholder="Search city"
+                        autocomplete="off"
+                    />
+                    <button id="search-btn">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </div>
+                <div id="weather-container">
+                    <div id="default-msg">
+                        <img src="search-city.png" alt="search-city" />
+                    </div>
+                    <div id="weather-info">
+                        <div id="location">
+                            <p id="country"></p>
+                            <img src="https://flagsapi.com/IN/flat/64.png" />
+                        </div>
+                        <div class="weather-icon">
+                            <img
+                                id="weather-icon"
+                                src="https://openweathermap.org/img/wn/02d@4x.png"
+                                alt="weather-icon"
+                            />
+                        </div>
+                        <div id="temp-details">
+                            <div class="temp">
+                                <span id="temp-num">22 </span>
+                            </div>
+                            <div class="description">broken clouds</div>
+                        </div>
+                        <div id="weather-details">
+                            <ul>
+                                <li>
+                                    <span>Clouds</span>
+                                    <i class="fa-solid fa-cloud"></i>
+                                    <span id="clouds"></span>
+                                </li>
+                                <li>
+                                    <span>Humidity</span>
+                                    <i class="fa-solid fa-droplet"></i>
+                                    <span id="humidity"></span>
+                                </li>
+                                <li>
+                                    <span>Pressure</span>
+                                    <i class="fa-solid fa-gauge"></i>
+                                    <span id="pressure"></span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="err-msg">
+                        <img src="not-found.png" alt="not-found" />
+                    </div>
+                </div>
+            </main>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
