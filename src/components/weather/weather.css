@@ -1,0 +1,42 @@
+.weather {
+    height: 30rem;
+    width: 20rem;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+#search-city {
+    margin-top: 2rem;
+    width: 100%;
+}
+
+.temperature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.temperature > h1 {
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: black;
+    text-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.temperature > h2 {
+    color: rgb(255, 153, 0);
+    font-size: 1.2rem;
+}
+
+#not-found {
+    margin-top: 4rem;
+    width: 100%;
+}
