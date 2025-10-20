@@ -2,7 +2,7 @@
 
 ## 🚀 Live Link
 
-[Weather App]()
+[Weather App](https://aniket23padalkar.github.io/Weather-App/)
 
 ---
 
@@ -16,35 +16,35 @@ I also implemented an **auto-search (autocomplete)** feature using an API that s
 
 ## 🧠 What I Learned
 
--   How to **fetch and manage API data** efficiently using React hooks (`useState`, `useEffect`)
--   Handling **loading states** and **error messages** gracefully
--   Implementing **autocomplete search** using API suggestions
--   Using **conditional rendering** to show or hide components based on state
--   Understanding **component-based structure** and data flow in React
+- How to **fetch and manage API data** efficiently using React hooks (`useState`, `useEffect`)
+- Handling **loading states** and **error messages** gracefully
+- Implementing **autocomplete search** using API suggestions
+- Using **conditional rendering** to show or hide components based on state
+- Understanding **component-based structure** and data flow in React
 
 ---
 
 ## 🧰 Tech Stack
 
--   **React.js**
--   **CSS**
--   **OpenWeatherMap API**
--   **FlagsAPI** (for country flags)
--   **Autocomplete API** (for city suggestions)
+- **React.js**
+- **CSS**
+- **OpenWeatherMap API**
+- **FlagsAPI** (for country flags)
+- **Autocomplete API** (for city suggestions)
 
 ---
 
 ## 🌍 Features
 
--   Search weather by **city name** with live **autocomplete suggestions**
--   Displays:
-    -   🌏 Country flag & location
-    -   ☁️ Weather icon & description
-    -   🌡️ Temperature in °C
-    -   💧 Humidity, 🌬️ Wind speed, and Pressure
--   **Loading** while fetching data
--   **Error handling** for invalid city names
--   **Default message** before any search
+- Search weather by **city name** with live **autocomplete suggestions**
+- Displays:
+  - 🌏 Country flag & location
+  - ☁️ Weather icon & description
+  - 🌡️ Temperature in °C
+  - 💧 Humidity, 🌬️ Wind speed, and Pressure
+- **Loading** while fetching data
+- **Error handling** for invalid city names
+- **Default message** before any search
 
 ---
 
